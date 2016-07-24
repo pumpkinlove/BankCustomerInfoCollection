@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.pump.infocollection.activity.notice.NoticeActivity">
+
+    <include
+        android:id="@+id/head_title"
+        layout="@layout/layout_title" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <EditText
+            android:height="45dp"
+            android:hint="搜索"
+            android:layout_width="match_parent"
+            android:textSize="19sp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:padding="2dp" />
+        <android.support.v7.widget.RecyclerView
+            android:layout_margin="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="798dp"
+            ></android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+</LinearLayout>

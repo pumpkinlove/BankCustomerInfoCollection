@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">InfoCollection</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="title_topublicitem_list">ToPublicItems</string>
+    <string name="title_topublicitem_detail">ToPublicItem Detail</string>
+    <string name="title_ruralitem_list">RuralItems</string>
+    <string name="title_ruralitem_detail">RuralItem Detail</string>
+    <string name="title_businessitem_list">BusinessItems</string>
+    <string name="title_businessitem_detail">BusinessItem Detail</string>
+    <string name="title_urbanitem_list">UrbanItems</string>
+    <string name="title_urbanitem_detail">UrbanItem Detail</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

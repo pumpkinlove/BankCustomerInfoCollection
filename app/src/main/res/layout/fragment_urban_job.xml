@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:tag="jobFragment"
+    android:background="@color/gray_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <android.support.v7.widget.CardView
+        android:layout_weight="3.5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardCornerRadius="3dp"
+        app:cardElevation="8dp"
+        android:layout_margin="0dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="0dp"
+        android:paddingBottom="5dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_weight="5"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp">
+        <TextView
+            android:layout_weight="4"
+            android:text="职业："
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="@color/dark" />
+        <EditText
+            android:layout_weight="3"
+            style="@style/style_input"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="@color/dark" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="5"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp">
+        <TextView
+            android:layout_weight="4"
+            android:text="工作单位："
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="@color/dark" />
+        <EditText
+            android:layout_weight="3"
+            style="@style/style_input"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="@color/dark" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="5"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp">
+        <TextView
+            android:layout_weight="4"
+            android:text="职务："
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="@color/dark" />
+        <EditText
+            android:layout_weight="3"
+            style="@style/style_input"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="@color/dark" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="5"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp">
+        <TextView
+            android:layout_weight="4"
+            android:text="所属单位行业："
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="@color/dark" />
+        <EditText
+            android:layout_weight="3"
+            style="@style/style_input"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="@color/dark" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="5"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp">
+        <TextView
+            android:layout_weight="4"
+            android:text="单位部门："
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="@color/dark" />
+        <EditText
+            android:layout_weight="3"
+            style="@style/style_input"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="@color/dark" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="5"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp">
+        <TextView
+            android:layout_weight="4"
+            android:text="正式在编："
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="@color/dark" />
+        <EditText
+            android:layout_weight="3"
+            style="@style/style_input"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="@color/dark" />
+    </LinearLayout>
+
+            </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <LinearLayout
+        android:layout_weight="2.5"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp">
+    </LinearLayout>
+</LinearLayout>

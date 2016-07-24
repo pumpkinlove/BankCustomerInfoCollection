@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+
+    <TextView
+        android:textAlignment="center"
+        android:id="@+id/tv_recentDevelop_customerName"
+        android:text="张三"
+        android:textColor="@color/black"
+        android:layout_weight="4"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textAlignment="center"
+        android:id="@+id/tv_recentDevelop_dept"
+        android:text="测试网点"
+        android:textColor="@color/black"
+        android:layout_weight="3"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textAlignment="center"
+        android:id="@+id/tv_recentDevelop_time"
+        android:text="22分钟前"
+        android:textColor="@color/gray_deep"
+        android:layout_weight="4"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pump.infocollection">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity
+            android:name=".activity.LoginActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.MainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activity.sheet.SheetActivity" />
+        <activity
+            android:name=".activity.sheet.topublic.ToPublicItemListActivity"
+            android:label="@string/title_topublicitem_list"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".activity.sheet.topublic.ToPublicItemDetailActivity"
+            android:label="@string/title_topublicitem_detail"
+            android:parentActivityName=".activity.sheet.topublic.ToPublicItemListActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.pump.infocollection.activity.sheet.topublic.ToPublicItemListActivity" />
+        </activity>
+        <activity
+            android:name=".activity.sheet.rural.RuralItemListActivity"
+            android:label="@string/title_ruralitem_list"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".activity.sheet.rural.RuralItemDetailActivity"
+            android:label="@string/title_ruralitem_detail"
+            android:parentActivityName=".activity.sheet.rural.RuralItemListActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.pump.infocollection.activity.sheet.rural.RuralItemListActivity" />
+        </activity>
+        <activity
+            android:name=".activity.sheet.business.BusinessItemListActivity"
+            android:label="@string/title_businessitem_list"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".activity.sheet.business.BusinessItemDetailActivity"
+            android:label="@string/title_businessitem_detail"
+            android:parentActivityName=".activity.sheet.business.BusinessItemListActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.pump.infocollection.activity.sheet.business.BusinessItemListActivity" />
+        </activity>
+        <activity
+            android:name=".activity.sheet.urban.UrbanItemListActivity"
+            android:label="@string/title_urbanitem_list"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".activity.sheet.urban.UrbanItemDetailActivity"
+            android:label="@string/title_urbanitem_detail"
+            android:parentActivityName=".activity.sheet.urban.UrbanItemListActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.pump.infocollection.activity.sheet.urban.UrbanItemListActivity" />
+        </activity>
+        <activity android:name=".activity.personal.PersonalActivity" />
+        <activity android:name=".activity.notice.NoticeActivity" />
+        <activity android:name=".activity.record.RecordActivity" />
+        <activity android:name=".activity.sheet.urban.UrbanSheetActivity"></activity>
+    </application>
+
+</manifest>
